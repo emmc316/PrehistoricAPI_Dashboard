@@ -1,0 +1,25 @@
+{
+  "name": "prehistoricapi_dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard web to manage data from the database to PrehistoricAPI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dashboard"
+  ],
+  "author": "emmc316",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mariadb": "^3.2.0",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
